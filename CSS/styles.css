@@ -25,6 +25,7 @@ html {
 body {
     background-color: var(--background-BoxShadow);
     height: 100vh;
+    padding: 0 2rem 0 2rem;
 }
 
 
@@ -56,7 +57,7 @@ h2 {
 }
 
 .second__h2{
-    margin-bottom: 3rem;
+    margin-top: 6rem;
 }
 
 .header__image--container {
@@ -121,10 +122,10 @@ h2 {
 }
 
 .button-item-second{
-    width: 10.5rem;
-    height: 6.5rem;
+    width: 10rem;
+    height: 10rem;
     outline: none;
-    border-radius: 3.56rem;
+    border-radius: 50%;
     border-width: 0;
     border-style: none;
     box-shadow: var(--box-shadow);
@@ -235,7 +236,7 @@ h2 {
 
 /* FOOTER SECTION */
 .footer {
-    margin: 2rem 0 0 0;
+    margin: 4rem 0 0 0;
     width: 100%;
     height: auto;
     padding: 1rem 0 4rem 0;
