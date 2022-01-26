@@ -1,0 +1,24 @@
+:root {
+    --font-family: ;
+    --fontSize-icon: ;
+    --box-shadow: 25px 25px 50px #9c3838,
+    -25px -25px 50px #d44c4c;
+    --background-BoxShadow: ;
+    --first-color: ;
+    --second-color: ;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: ;
+}
