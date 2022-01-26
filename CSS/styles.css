@@ -1,12 +1,12 @@
 :root {
-    --font-family: ;
-    --fontSize-icon: ;
-    --box-shadow: 25px 25px 50px #9c3838,
-    -25px -25px 50px #d44c4c;
-    --background-BoxShadow: ;
-    --first-color: ;
-    --second-color: ;
-
+    --font-family:'Bebas Neue', cursive; 
+    /* --fontSize-icon: ; */
+    --box-shadow: 25px 25px 49px #bebec2,
+    -25px -25px 49px #ffffff;
+    --background-BoxShadow:#F0F1F5;
+    --text-color: #1b1b1b;
+    /* --second-color: ;
+ */
 }
 
 *{
@@ -20,5 +20,11 @@ html {
 }
 
 body {
-    background-color: ;
+    background-color: var(--background-BoxShadow);
+}
+
+
+/* HEADER SECTION */
+.header {
+    
 }
