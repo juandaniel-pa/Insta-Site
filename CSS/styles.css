@@ -24,6 +24,7 @@ html {
 
 body {
     background-color: var(--background-BoxShadow);
+    height: 100vh;
 }
 
 
@@ -32,10 +33,11 @@ body {
 .header {
     display: flex;
     width: 100%;
-    height: 300px;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 3rem 2rem;
 }
 
 .header h1{
@@ -56,14 +58,31 @@ h2 {
     height: 150px;
     border-radius: 50%;
     box-shadow: var(--box-shadow);
-    background-image: url('assets');
-    background-size: cover;
-    background-position: center;
+    background-image: url('../assets/img/trapboss.png');
+    background-size: contain;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
-}
-
-.header .image--principal {
-    width: 100%;
-    height: 100%;
     
 }
+
+.verfication__section{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+}
+
+ .image {
+    position: relative;
+    top: 2.7rem;
+    left: 0.8rem;
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
+/* BUTTONS SECTION */
+.button__container {
+    width: 100%;
+    height: auto;
+    
+}
+
