@@ -138,6 +138,7 @@ h2 {
 .button-item-second:hover {
     box-shadow: inset 25px 25px 49px #bebec2,
     inset -25px -25px 49px #ffffff;
+    transform: scale(1.2);
 }
 .button a{
     text-decoration: none;
@@ -146,23 +147,24 @@ h2 {
 
 .button:hover {
     transform: scale(1.2);
-}
-
-.button:active {
     box-shadow: inset 25px 25px 49px #bebec2,
     inset -25px -25px 49px #ffffff;
 }
+
 .fa-instagram, .fa-twitter {
     font-size: 4rem;
+    
 }
 
 .fa-instagram {
     color: #1b1b1b;
+    
 }
 
 .fa-twitter{
     color: #55ACEE;
 }
+
 
 .fa-youtube, .fa-spotify, .fa-itunes-note {
     font-size: 9rem;
@@ -299,7 +301,7 @@ h2 {
     /* BUTTON  */
     .button {
         width: 200px;
-    height: 200px;
+        height: 200px;
     }
 
     .button__container {
@@ -340,4 +342,53 @@ h2 {
         border-radius: 0.5rem;
       }
     
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 500px;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    .button__container {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .button-item-second {
+        margin: 0;
+        width: 200px;
+        height: 200px;
+        justify-self: center;
+    }
+     
+    
+    .swiper-slide a img{
+        width: 275px;
+        height: 275px;
+        position: relative;
+        top: 3rem;
+        object-fit: cover;
+    }
+    
+    .swiper--item1, .swiper--item2, .swiper--item3, .swiper--item4, .swiper--item5 {
+        width: 350px;
+        height: 350px;
+        border-radius: 0.5rem;
+      }
+
+      .footer {
+        padding: 3.5rem 0px 0px;
+      }
+
+      .fa-instagram, .fa-twitter {
+        font-size: 9rem;
+    }
 }
