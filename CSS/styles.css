@@ -124,6 +124,11 @@ h2 {
     border-style: none;
     box-shadow: var(--box-shadow);
 }
+
+.button-item-second:hover {
+    box-shadow: inset 25px 25px 49px #bebec2,
+    inset -25px -25px 49px #ffffff;
+}
 .button a{
     text-decoration: none;
     color: white;
@@ -135,7 +140,7 @@ h2 {
 
 .button:active {
     box-shadow: inset 25px 25px 49px #bebec2,
-    inset -25px -25px 49px #ffffff;;
+    inset -25px -25px 49px #ffffff;
 }
 .fa-instagram, .fa-twitter {
     font-size: 4rem;
@@ -151,17 +156,14 @@ h2 {
 
 .fa-youtube, .fa-spotify, .fa-itunes-note {
     font-size: 9rem;
-    
 }
 
 .fa-youtube {
     color: #C4302B;
-    
 }
 
 .fa-spotify {
     color: #1ED760;
-    
 }
 
 .fa-itunes-note {
@@ -174,6 +176,7 @@ h2 {
     margin: 2rem 0 0 0;
     width: 100%;
     height: auto;
+    padding: 1rem 0 4rem 0;
 
 }
 
