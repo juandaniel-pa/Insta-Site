@@ -83,6 +83,51 @@ h2 {
 .button__container {
     width: 100%;
     height: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button__list{
+    list-style: none;
+}
+
+.button__list li {
+    margin: 1.7rem;
+}
+
+
+.button {
+    width: 140px;
+    height: 145px;
+    outline: none;
+    border-radius: 50%;
+    border-width: 0;
+    border-style: none;
+    box-shadow: var(--box-shadow);
+
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.fa-youtube, .fa-spotify, .fa-itunes-note {
+    font-size: 9rem;
+}
+
+.fa-youtube {
+    color: #C4302B;
     
 }
 
+.fa-spotify {
+    color: #1ED760;
+    
+}
+
+.fa-itunes-note {
+    color: #D948DD;
+}
