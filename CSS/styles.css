@@ -133,22 +133,28 @@ h2 {
     border-width: 0;
     border-style: none;
     box-shadow: var(--box-shadow);
+    text-align: center;
+    transition: all 0.1s ease-in;
 }
 
 .button-item-second:hover {
     box-shadow: inset 25px 25px 49px #bebec2,
     inset -25px -25px 49px #ffffff;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+    
 }
 .button a{
     text-decoration: none;
     color: white;
+    transition: all 0.1s ease-in;
 }
 
 .button:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     box-shadow: inset 25px 25px 49px #bebec2,
     inset -25px -25px 49px #ffffff;
+    transition: all 0.3s ease-in;
 }
 
 .fa-instagram, .fa-twitter {
@@ -167,7 +173,7 @@ h2 {
 
 
 .fa-youtube, .fa-spotify, .fa-itunes-note {
-    font-size: 9rem;
+    font-size: 7rem;
 }
 
 .fa-youtube {
@@ -328,6 +334,7 @@ h2 {
         height: 145px;
     }
 
+/* SWIPER */
     .swiper-slide a img{
         width: 375px;
         height: 375px;
@@ -389,6 +396,6 @@ h2 {
       }
 
       .fa-instagram, .fa-twitter {
-        font-size: 9rem;
+        font-size: 7rem;
     }
 }
