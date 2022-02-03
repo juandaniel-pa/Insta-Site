@@ -136,6 +136,14 @@ h2 {
     transition: all 0.1s ease-in;
 }
 
+.button-item-second img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
 .button-item-second:hover {
     box-shadow: inset 25px 25px 49px #bebec2,
     inset -25px -25px 49px #ffffff;
@@ -161,7 +169,7 @@ h2 {
     
 }
 
-.fa-instagram {
+.fa-instagram, .fa-amazon {
     color: #1b1b1b;
     
 }
@@ -171,7 +179,7 @@ h2 {
 }
 
 
-.fa-youtube, .fa-spotify, .fa-itunes-note {
+.fa-youtube, .fa-spotify, .fa-itunes-note, .fa-amazon {
     font-size: 7rem;
 }
 
