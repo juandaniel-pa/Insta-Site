@@ -61,13 +61,23 @@ h2 {
 .header__image--container {
     width: 150px;
     height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     box-shadow: var(--box-shadow);
-    background-image: url('../assets/img/trapboss.png');
+    /* background-image: url('../assets/img/newprofile.jpeg');
     background-size: contain;
     background-position: 50% 50%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     
+}
+
+.header__image--container .image--principal {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .verfication__section{
